@@ -25,3 +25,14 @@ body {
 .section {
     padding: 3em 1em;
 }
+
+.header,
+.footer {
+    background-color: #161616;
+    color: #bbb;
+}
+
+.header a,
+.footer a {
+    color: #bbb;
+}
