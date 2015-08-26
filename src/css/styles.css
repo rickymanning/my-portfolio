@@ -54,3 +54,9 @@ body {
     list-style-type: none;
     padding:0;
 }
+
+.navigation > ul li a {
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+} 
