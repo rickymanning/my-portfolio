@@ -49,3 +49,8 @@ body {
 .content > .section:nth-child(2n) {
     background-color: #e6e6e6;
 }
+
+.navigation > ul {
+    list-style-type: none;
+    padding:0;
+}
