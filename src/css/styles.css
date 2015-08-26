@@ -59,4 +59,9 @@ body {
     text-decoration: none;
     padding: 1em;
     display: block;
-} 
+}
+
+.navigation > ul li a:hover {
+    background-color: #121212;
+    color: #fff;
+}
