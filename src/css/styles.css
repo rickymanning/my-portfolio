@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+/*
+ * Colours to Use
+ *
+ * #161616 (Charcoal Grey) - to be used as background for main navigation and footer
+ * #121212 (Dark Charcoal Grey) - to be used as background highlights when main navigation and footer links are hovered over
+ * #bbb (Grey) - to be as used the colour to use for text over a dark background
+ * #fff (White) - to be used as the background colour for sections
+ * #e6e6e6 (Light Grey) - to be used as the background color for zebra striping of alternate sections
+ * #870fof (Red) - to be used as the highlight/jumbotron background colour
+ *
+ * NOTE:
+ * The names in brackets are mine. They may not (probably will not) correspond with standard CSS color names in most cases.
+ *
+ */
+
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300);
 
 body {
