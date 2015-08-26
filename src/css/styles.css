@@ -36,3 +36,8 @@ body {
 .footer a {
     color: #bbb;
 }
+
+.jumbotron {
+    background-color: #870f0f;
+    color: #fff;
+}
