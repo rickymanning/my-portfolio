@@ -50,20 +50,21 @@ body {
     background-color: #e6e6e6;
 }
 
-.navigation > ul {
+.navigation ul {
     list-style-type: none;
     padding:0;
 }
 
-.navigation > ul li a {
+.navigation a {
     text-decoration: none;
     padding: 1em;
     display: block;
 }
 
-.navigation > ul li a:hover,
-.navigation > ul li a:active,
-.navigation > ul li a:focus {
+.navigation a:hover,
+.navigation a:active,
+.navigation a:focus {
     background-color: #121212;
     color: #fff;
 }
+
