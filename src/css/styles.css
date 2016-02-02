@@ -50,6 +50,12 @@ body {
     background-color: #e6e6e6;
 }
 
+#logo {
+    float: left;
+    height: 3em;
+    width: 3em;
+}
+
 .navigation ul {
     list-style-type: none;
     padding:0;
