@@ -20,10 +20,34 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
+
+    /*
+     * min-width should be 320px
+     * we've set the default font size to 16px
+     * we want to express the min-width relative to the font size
+     *
+     * min-width = 320px / 16px
+     * min-width = 20em;
+     */
+    min-width: 20em;
 }
 
 .section {
     padding: 3em 1em;
+}
+
+.group:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.header  {
+    padding: 1em;
+}
+
+.header > header {
+    width: 100%;
 }
 
 .header,
@@ -64,7 +88,10 @@ body {
 #site-name > h1 {
     margin: 0;
     text-transform: uppercase;
+}
 
+#site-name > h1,
+#main-menu-icon {
     /*
      * the logo is 3em, and the font-size is 1.3em.
      * we arrive at a line-height of 2.31em by dividing
@@ -77,9 +104,16 @@ body {
     line-height: 2.31em;
 }
 
+#main-menu-icon {
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
 .navigation ul {
     list-style-type: none;
-    padding:0;
+    padding: 0;
 }
 
 .navigation a {
