@@ -132,3 +132,27 @@ body {
 .hidden {
     display: none;
 }
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill {
+    color: #fff;
+    margin: 0.75em 0.75em 0.75em 0;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.hot {
+    background-color: #870f0f;
+}
+
+.warm {
+    background-color: #ff6600;
+}
+
+.mild {
+    background-color: #ffcc00;
+}
