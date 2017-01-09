@@ -164,3 +164,20 @@ body {
 img {
     max-width: 100%;
 }
+
+/*
+ * FORM STYLING (below)
+ *
+ * Derived from My First HTML Form (MDN)
+ * https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
+ *
+ */
+form {
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #e6e6e6;
+	/* border radius: some old browsers require prefixes (https://developer.mozilla.org/en/docs/Web/CSS/border-radius) */
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
