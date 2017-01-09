@@ -217,3 +217,12 @@ input:focus, textarea:focus {
 #msg {
 	height: 7em;
 }
+
+#footer .navigation img{
+	width: 2em;
+    vertical-align: middle; /* http://stackoverflow.com/a/489394 */
+}
+
+#footer .navigation ul li a span {
+    margin-left: 0.5em;
+}
