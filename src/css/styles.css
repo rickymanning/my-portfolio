@@ -160,3 +160,7 @@ body {
 .uni-module {
     background-color: #00b147;
 }
+
+img {
+    max-width: 100%;
+}
