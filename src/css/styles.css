@@ -208,3 +208,8 @@ input, textarea {
     /* To harmonize the look & feel of text field border */
     border: 1px solid #999;
 }
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #161616 /* #000 */;
+}
