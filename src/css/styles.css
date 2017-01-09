@@ -186,3 +186,25 @@ form div + div {
 	/* add a top margin to all immediate div children of 'form divs'. */
     margin-top: 1em;
 }
+
+label {
+    display: inline-block;
+    margin-bottom: 0.2em;
+}
+
+button, input, textarea {
+    padding: 0.5em;
+}
+
+input, textarea {
+	/* make all text input as wide as it's containg element */
+    width: 100%;
+
+	/* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
+	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
