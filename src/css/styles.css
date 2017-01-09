@@ -181,3 +181,8 @@ form {
 	-moz-border-radius: 1em;
 	border-radius: 1em;
 }
+
+form div + div {
+	/* add a top margin to all immediate div children of 'form divs'. */
+    margin-top: 1em;
+}
