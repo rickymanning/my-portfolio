@@ -226,3 +226,7 @@ input:focus, textarea:focus {
 #footer .navigation ul li a span {
     margin-left: 0.5em;
 }
+
+.copyright{
+	font-size: 0.75em;
+}
