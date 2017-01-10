@@ -18,8 +18,8 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300);
 
 body {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
 
     /*
      * min-width should be 320px
@@ -37,9 +37,9 @@ body {
 }
 
 .group:after {
-  clear: both;
-  content: "";
-  display: table;
+    clear: both;
+    content: "";
+    display: table;
 }
 
 .header  {
@@ -176,14 +176,14 @@ form {
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #e6e6e6;
-	/* border radius: some old browsers require prefixes (https://developer.mozilla.org/en/docs/Web/CSS/border-radius) */
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
+    /* border radius: some old browsers require prefixes (https://developer.mozilla.org/en/docs/Web/CSS/border-radius) */
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
 }
 
 form div + div {
-	/* add a top margin to all immediate div children of 'form divs'. */
+    /* add a top margin to all immediate div children of 'form divs'. */
     margin-top: 1em;
 }
 
@@ -197,11 +197,11 @@ button, input, textarea {
 }
 
 input, textarea {
-	/* make all text input as wide as it's containg element */
+    /* make all text input as wide as it's containg element */
     width: 100%;
 
-	/* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
-	-webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    /* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
     box-sizing: border-box;
 
@@ -215,11 +215,11 @@ input:focus, textarea:focus {
 }
 
 #msg {
-	height: 7em;
+    height: 7em;
 }
 
 #footer .navigation img{
-	width: 2em;
+    width: 2em;
     vertical-align: middle; /* http://stackoverflow.com/a/489394 */
 }
 
@@ -228,5 +228,5 @@ input:focus, textarea:focus {
 }
 
 .copyright{
-	font-size: 0.75em;
+    font-size: 0.75em;
 }
