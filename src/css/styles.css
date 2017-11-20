@@ -291,7 +291,7 @@ input:focus, textarea:focus {
 }
 
 @media screen and (min-width: 978px) {
-  .jumbotron {
-    font-size: 2em;
-  }
+    .jumbotron {
+        font-size: 2em;
+    }
 }
