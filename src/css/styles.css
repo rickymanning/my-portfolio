@@ -255,4 +255,9 @@ input:focus, textarea:focus {
         display: inline-block;
         width: auto;
     }
+
+    #main-menu-icon {
+        display: none;
+        visibility: hidden;
+    }
 }
