@@ -251,6 +251,11 @@ input:focus, textarea:focus {
 }
 
 @media screen and (min-width: 850px) {
+    header {
+        float: left;
+        width: 27.5%;
+    }
+    
     .navigation > ul > li {
         display: inline-block;
         width: auto;
