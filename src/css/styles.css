@@ -47,6 +47,16 @@ body {
     margin: 0 auto;
 }
 
+.col {
+    margin: 1% 0 1% 0%;
+}
+
+.span_3_of_3,
+.span_2_of_3,
+.span_1_of_3 {
+    width: 100%;
+}
+
 .header  {
     padding: 1em;
 }
@@ -265,6 +275,31 @@ input:focus, textarea:focus {
 @media (min-width: 660px) {
     .jumbotron {
         font-size: 1.5em;
+    }
+
+    .grid {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .col {
+        display: block;
+        float:left;
+        margin: 1% 0 1% 1.6%;
+    }
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+    .span_1_of_3 {
+        width: 32.26%;
+    }
+
+    .col.span_1_of_3:nth-child(3n+1) {
+        clear:both;
+        margin-left: 0;
     }
 }
 
