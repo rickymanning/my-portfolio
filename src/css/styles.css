@@ -289,3 +289,9 @@ input:focus, textarea:focus {
         visibility: hidden;
     }
 }
+
+@media screen and (min-width: 978px) {
+  .jumbotron {
+    font-size: 2em;
+  }
+}
