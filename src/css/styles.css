@@ -235,3 +235,10 @@ input:focus, textarea:focus {
 .copyright{
     font-size: 0.75em;
 }
+
+@media screen and (min-width: 320px) {
+    .navigation > ul > li {
+        display: inline-block;
+        width: 49%;
+    }
+}
