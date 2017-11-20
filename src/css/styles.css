@@ -256,6 +256,11 @@ input:focus, textarea:focus {
         width: auto;
     }
 
+    #main-menu.hidden {
+        display: block;
+        height: auto;
+    }
+
     #main-menu-icon {
         display: none;
         visibility: hidden;

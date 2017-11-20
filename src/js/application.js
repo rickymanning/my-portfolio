@@ -10,10 +10,17 @@ $(document).ready(function () {
     $icon.removeClass('hidden');
     $icon.on('click', function(event) {
         event.preventDefault();
-        $('#main-menu').animate({height: 'toggle'}, 500);
+        $('#main-menu').animate({height: 'toggle'}, 500, function() {
+            // jQuery animate leaves an inline style behind that we
+            // don't want, so now that the jQuery animation is complete.
+            // toggle our own css for hidden/shown and remove the inline
+            // style
+            $(this).toggleClass('hidden');
+            $(this).removeAttr('style');
+        });
     });
 
     //hide the navigation
-    $('#main-menu').hide();
+    $('#main-menu').toggleClass('hidden');
 
 });
