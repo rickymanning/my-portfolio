@@ -242,3 +242,10 @@ input:focus, textarea:focus {
         width: 49%;
     }
 }
+
+@media screen and (min-width: 500px) {
+    .navigation > ul > li {
+        display: inline-block;
+        width: 32%;
+    }
+}
